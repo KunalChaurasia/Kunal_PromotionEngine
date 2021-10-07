@@ -100,8 +100,6 @@ public class PromotionEngine {
             return sum;
         }
 
-
-
     private boolean isApplyPromo(Map<String, Integer> orders, Map<String, Map<String, Integer>> promoToPromoDetails, String promoId) {
         boolean applyPromo = false;
         Map<String , Integer > promoSKUCountMap = promoToPromoDetails.get(promoId);
